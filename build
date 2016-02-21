@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # vi: ft=sh
 
-docker build -t dev-base .
+docker build -t mikewright/docker-dev-base .
