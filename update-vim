@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # vi: ft=sh
 
-vim +BundleInstall! +BundleClean +q
+vim +BundleInstall! +BundleClean! +qall!
