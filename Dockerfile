@@ -29,5 +29,6 @@ WORKDIR /src
 ENV TERM xterm-256color
 
 # By default start in tmux
+ENTRYPOINT ["/bin/bash", "--login", "-i", "-c"]
 CMD ["tmux"]
 
