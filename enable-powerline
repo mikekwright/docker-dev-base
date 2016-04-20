@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# vi: ft=sh
-
-fc-cache -vf $HOME/.fonts/ && \
-echo "set guifont=Droid\\ Sans\\ Mono\\ 10"
-echo 'source "$HOME/.tmux.powerline.conf"' >> $HOME/.tmux.conf
-echo 'set -g default-terminal "screen-256color"' >> $HOME/.tmux.conf
-
